@@ -4,7 +4,7 @@ class Car:
   def __init__(self, brand, model):
     self.__brand = brand # '__name' make the variable private (Encapsulation)
     self.__model = model
-    Car.total_car += 1 # we also define with class name
+    Car.total_car += 1 # we can also define with class name
 
   def full_name(self):
     return f"{self.__brand} {self.__model}"
